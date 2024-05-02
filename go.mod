@@ -1,4 +1,4 @@
-module volodymyrss/fuse
+module github.com/volodymyrss/fuse
 
 go 1.19
 
