@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"bazil.org/fuse/fs/fstestutil/spawntest"
-	"bazil.org/fuse/fs/fstestutil/spawntest/httpjson"
+	"github.com/volodymyrss/fuse/fs/fstestutil/spawntest"
+	"github.com/volodymyrss/fuse/fs/fstestutil/spawntest/httpjson"
 )
 
 var helpers spawntest.Registry

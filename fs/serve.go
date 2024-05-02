@@ -1,6 +1,6 @@
 // FUSE service loop, for servers that wish to use it.
 
-package fs // import "bazil.org/fuse/fs"
+package fs // import "github.com/volodymyrss/fuse/fs"
 
 import (
 	"bytes"
@@ -18,8 +18,8 @@ import (
 	"syscall"
 	"time"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fuseutil"
+	"github.com/volodymyrss/fuse"
+	"github.com/volodymyrss/fuse/fuseutil"
 	"golang.org/x/sys/unix"
 )
 

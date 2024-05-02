@@ -21,13 +21,13 @@ import (
 	"testing"
 	"time"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
-	"bazil.org/fuse/fs/fstestutil"
-	"bazil.org/fuse/fs/fstestutil/record"
-	"bazil.org/fuse/fs/fstestutil/spawntest"
-	"bazil.org/fuse/fs/fstestutil/spawntest/httpjson"
-	"bazil.org/fuse/fuseutil"
+	"github.com/volodymyrss/fuse"
+	"github.com/volodymyrss/fuse/fs"
+	"github.com/volodymyrss/fuse/fs/fstestutil"
+	"github.com/volodymyrss/fuse/fs/fstestutil/record"
+	"github.com/volodymyrss/fuse/fs/fstestutil/spawntest"
+	"github.com/volodymyrss/fuse/fs/fstestutil/spawntest/httpjson"
+	"github.com/volodymyrss/fuse/fuseutil"
 	"golang.org/x/sys/unix"
 )
 

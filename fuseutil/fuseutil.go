@@ -1,7 +1,7 @@
-package fuseutil // import "bazil.org/fuse/fuseutil"
+package fuseutil // import "github.com/volodymyrss/fuse/fuseutil"
 
 import (
-	"bazil.org/fuse"
+	"github.com/volodymyrss/fuse"
 )
 
 // HandleRead handles a read request assuming that data is the entire file content.

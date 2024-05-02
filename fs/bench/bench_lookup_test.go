@@ -7,10 +7,10 @@ import (
 	"syscall"
 	"testing"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
-	"bazil.org/fuse/fs/fstestutil"
-	"bazil.org/fuse/fs/fstestutil/spawntest/httpjson"
+	"github.com/volodymyrss/fuse"
+	"github.com/volodymyrss/fuse/fs"
+	"github.com/volodymyrss/fuse/fs/fstestutil"
+	"github.com/volodymyrss/fuse/fs/fstestutil/spawntest/httpjson"
 )
 
 type benchLookupDir struct {
