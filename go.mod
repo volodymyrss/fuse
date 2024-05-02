@@ -1,4 +1,4 @@
-module bazil.org/fuse
+module volodymyrss/fuse
 
 go 1.19
 
